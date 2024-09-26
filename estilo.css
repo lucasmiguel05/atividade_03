@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+}
+#inicio{
+        display: flex;
+        padding-left: 10%;
+        border-bottom: 0.5px solid #9A9EA6;
+}
+
+#login{
+    padding-left: 70%;
+    margin-top: 15px;
+   
+}
+
+i{
+    background-color:whitesmoke;
+    border-radius: 140px;
+    width: 45px;
+    height: 35px;
+    padding: 14px;
+    color: rgb(0, 153, 255);
+   
+}
+.txt_blue{
+   color:#4372EB;
+
+}
+#banner{
+    display: flex;
+}
+
+#parte1{
+    font-family:'Plus Jakarta Sans' ;
+    padding-top: 5%;
+    padding-left: 200px;
+}
+
+#parte1 h1 {
+    font-size: 60px;
+    font-family:'Plus Jakarta Sans' ;
+    font-weight: 900;
+    color: #14183E;
+    
+    
+}
+#parte1 p {
+    font-size: 15px;
+    color:  #9A9EA6;
+}
+#parte1_2{
+    display: flex;
+}
+#cad{
+    text-align: center;
+    background-color:#4372EB;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px ;
+}
