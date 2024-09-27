@@ -1,5 +1,6 @@
 body{
-    margin: 0px;
+    margin: 10px;
+    font-family:'Plus Jakarta Sans' ;
 }
 #inicio{
         display: flex;
@@ -20,6 +21,7 @@ i{
     height: 35px;
     padding: 14px;
     color: rgb(0, 153, 255);
+    border: 1px  solid  rgb(0, 153, 255);
    
 }
 .txt_blue{
@@ -28,16 +30,17 @@ i{
 }
 #banner{
     display: flex;
+    justify-content: space-around;
 }
 
 #parte1{
     font-family:'Plus Jakarta Sans' ;
     padding-top: 5%;
-    padding-left: 200px;
+    padding-left: 120px;
 }
 
 #parte1 h1 {
-    font-size: 60px;
+    font-size: 70px;
     font-family:'Plus Jakarta Sans' ;
     font-weight: 900;
     color: #14183E;
@@ -50,6 +53,8 @@ i{
 }
 #parte1_2{
     display: flex;
+    align-items: center;
+
 }
 #cad{
     text-align: center;
@@ -59,3 +64,128 @@ i{
     padding: 20px;
     border-radius: 10px 10px 10px 10px ;
 }
+
+#veja{
+    font-weight: 500;
+    padding-left:10px ;
+    font-family:'Plus Jakarta Sans' ;
+}
+#parte3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#parte4 h1 {
+    color: #4372EB;
+    font-size: 20px;
+    font-family:'Plus Jakarta Sans' ;
+    padding-left: 6%;
+}
+
+#parte4 h2 {
+    font-size: 40px;
+    font-family:'Plus Jakarta Sans' ;
+    padding-left: 5%;
+}
+#parte5{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#destinos1{
+  display: flex;
+  background-image: url('/Imagens/Atividade_Avaliativa/destino2.png');
+  background-size: cover;
+  width: 260px;
+  height: 350px;
+  border-radius: 10px;
+}
+#txt_d1{
+    height: auto;
+    margin-top: 250px;
+    background-color:rgba(245, 245, 245, 0.778);
+    text-align: center;
+    width: 60%;
+    border-radius: 0px 5px 5px 0px ;
+   
+}
+#txt_d1 h1{
+    font-size: 20px;
+    
+}
+#txt_d1 p {
+    color: #9a9ea6;
+    margin-top: -10px;
+ 
+}
+
+#destino2{
+    display: flex;
+    background-image: url('/Imagens/Atividade_Avaliativa/destino1.png');
+    background-size: cover;
+    width: 260px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+#destino3{
+    display: flex;
+    background-image: url('/Imagens/Atividade_Avaliativa/destino5.png');
+    background-size: cover;
+    width: 260px;
+    height: 350px;
+    background-position: right;
+    border-radius: 10px;
+}
+
+#destino4{
+    display: flex;
+    background-image: url('/Imagens/Atividade_Avaliativa/destino4.png');
+    background-size: cover;
+    width: 260px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+#parte6{
+    display: flex;
+    justify-content: space-around;
+}
+#parte6 img {
+    margin-top: 15%;
+}
+#parte6 h1 {
+    color: #4372EB;
+    font-size: 20px;
+    font-family:'Plus Jakarta Sans' ;
+    padding-left: 6%;
+}
+#parte6 h2{
+    font-size: 60px;
+    font-family:'Plus Jakarta Sans' ;
+    padding-left: 5%;
+}
+#txt_rese{
+    margin-top: 10%;
+    border: 1px solid red;
+    width: 80%;
+}
+#text_p1{
+ display: flex;
+ 
+}
+.emogi{
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+
+
+
