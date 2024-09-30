@@ -153,9 +153,7 @@ i{
     display: flex;
     justify-content: space-around;
 }
-#parte6 img {
-    margin-top: 15%;
-}
+
 #parte6 h1 {
     color: #4372EB;
     font-size: 20px;
@@ -169,21 +167,102 @@ i{
 }
 #txt_rese{
     margin-top: 10%;
-    border: 1px solid red;
     width: 80%;
+    font-family:'Plus Jakarta Sans' ;
+   
 }
-#text_p1{
- display: flex;
- 
-}
-.emogi{
+
+#txt_6_1{
     display: flex;
-    justify-content: center;
-    background-color: lightcoral;
-    width: 35px;
-    height: 35px;
-    border-radius: 10px;
+    align-items: center;
+    font-family:'Plus Jakarta Sans' ;
 }
+#txt_6_1  span {
+    font-size: 20px;
+    color: #14183E;
+    font-family:'Plus Jakarta Sans' ;
+    font-weight: 700;
+
+}
+
+.emogi{
+   background-color: rgb(208, 178, 98);
+   border-radius: 5px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   font-size: 25px;
+   font-family:'Plus Jakarta Sans' ;
+   padding: 3px;
+   margin-right: 40px;
+   margin-left: 50px;
+
+}
+
+#parte7{
+    text-align: center;
+}
+
+#parte7 h1{
+    font-size: 20px;
+    color: #134fe7;
+}
+
+#parte7 h2{
+    font-size: 60px;
+}
+#parte7 h3{
+    font-weight: 400;
+}
+#parte8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#txt_p8 i {
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#txt_p8 p{
+    font-size: 20px;
+}
+#txt_p8 span{
+    color: #14183E;
+    font-size: 20px;
+    font-weight: 700;
+}
+#txt_p8{
+    display: flex;
+    
+}
+#parte9{
+    margin-left: 100px;
+}
+#parte9 h1{
+    font-size: 20px;
+    color: #134fe7;
+}
+#parte9 h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#parte_10{
+    display: flex;
+}
+ 
+#img{
+    margin-left: 10px;
+}
+
 
 
 
