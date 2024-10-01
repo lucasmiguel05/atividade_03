@@ -256,15 +256,69 @@ i{
 }
 
 #parte_10{
-    display: flex;
+  display: flex;
 }
  
 #img{
-    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+  
+}
+#caixa1{
+    width: 265px;
+    border: 1px solid whitesmoke;
+    margin-top: -10px;
+    text-align: center;
+    
+    
+}
+#caixa1 h1{
+    color: #9A9EA6;
+    font-size: 15px;
+}
+#caixa1 h2{
+    font-size: 15px;
+}
+#caixa1 h3{
+    color:#9A9EA6 ;
+    font-size: 15px;
+}
+#caixa1 h4{
+    color: #134fe7;
+    font-size: 15px;
+}
+#parte11{
+    background-image: url(/Imagens/Atividade_Avaliativa/destino5.png);
+    background-size: cover;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background-position: center;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;    
 }
 
 
-
+ #parte12{
+    text-align: center;
+    margin-top: 10%;
+ }
+ #parte12 h1{
+    color: #134fe7;
+    font-size: 20px;
+ }
+ #parte12 h2{
+    font-size: 40px;
+ }
+ #parte13{
+    display: flex; 
+   justify-content: space-around;
+ }
 
 
 
